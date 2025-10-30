@@ -410,6 +410,9 @@ EOF
     git_repo             = "terragoat"
     yor_trace            = "f7999d4e-c983-43ee-bd88-7903a6f8483e"
   })
+  metadata_options {
+    http_tokens = "required"
+  }
 }
 
 output "db_app_public_dns" {
